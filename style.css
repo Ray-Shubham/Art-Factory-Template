@@ -551,11 +551,14 @@ header label{
     }
 
     .contact .row{
-        flex-flow: column;
+        /* flex-flow: column; */
+        flex-flow: row;
     }
 
     .contact .row .map iframe{
-        width: 100vw;
+        /* width: 100vw; */
+        width: 50vw;
+        height: 33.2rem;
     }
 
     .contact .row .form-container{
